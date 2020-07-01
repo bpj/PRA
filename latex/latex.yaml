@@ -1,0 +1,14 @@
+from: markdown-shortcut_reference_links+four_space_rule
+to: latex-smart
+pdf-engine: xelatex
+include-in-header:
+  - praroman.ltx
+variables:
+  documentclass: scrartcl
+  fontsize: 12pt
+  papersize: a4
+  mainfont: Noto Serif
+  sansfont: Noto Sans
+  monofont: Noto Mono
+  links-as-notes: true
+

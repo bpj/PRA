@@ -1,0 +1,164 @@
+---
+- about: >
+    If `$thing` is a defined
+    non-hashref, `$default` is
+    defined and `as_key` is false
+    the return value has `$default` as key
+    and `$thing` as value.
+  args:
+  - $default: $defined_default
+    $thing: $defined_non_href
+    as_key: 0
+  result:
+    $default: $defined_default
+    $thing:
+      $defined_default: $defined_non_href
+    as_key: 0
+- about: >
+    If `$thing` is undefined,
+    `$default` is defined,
+    `as_key` is false and
+    `keep_undef` is true the
+    return value has `$default` as
+    key and `undef` as value.
+  args:
+  - $default: $defined_default
+    $thing: null
+    as_key: 0
+    keep_undef: 1
+  result:
+    $default: $defined_default
+    $thing:
+      $defined_default: null
+    as_key: 0
+    keep_undef: 1
+- about: >
+    If `$thing` is a defined
+    non-hashref, `$default` is
+    defined and `as_key` is true
+    the return value has `$thing`
+    as key and `$default` as
+    value.
+  args:
+  - $default: $defined_default
+    $thing: $defined_non_href
+    as_key: 1
+  result:
+    $default: $defined_default
+    $thing:
+      $defined_non_href: $defined_default
+    as_key: 1
+- about: >
+    If `$default` is undefined
+    and `$thing` is a defined
+    non-hashref the return value
+    has `$thing` as key and
+    `undef` as value regardless of
+    the value of `as_key`.
+
+    This rule may lead to surprising results if you
+    don't know that `$default` is undefined, so always check
+    if an unknown `$default` value is defined unless you
+    want `$thing` as key when `$default` is undefined!
+  args:
+  - $default: null
+    $thing: $defined_non_href
+    as_key: 0
+  - $default: null
+    $thing: $defined_non_href
+    as_key: 1
+  result:
+    $default: null
+    $thing:
+      $defined_non_href: null
+    as_key: 1
+- about: >
+    If `$thing` is a hashref the
+    return value is identical to
+    `$thing` regardless of other
+    arguments.
+  args:
+  - $default: null
+    $thing:
+      key: $value
+    as_key: 0
+  - $default: null
+    $thing:
+      key: $value
+    as_key: 1
+  - $default: $defined_default
+    $thing:
+      key: $value
+    as_key: 1
+  - $default: $defined_default
+    $thing:
+      key: $value
+    as_key: 0
+  result:
+    $thing:
+      key: $value
+- about: >
+    If both `$thing` and
+    `$default` are undefined the
+    return value is an empty
+    hashref regardless of other
+    arguments.
+  args:
+  - $default: null
+    $thing: null
+    as_key: 0
+    keep_undef: 0
+  - $default: null
+    $thing: null
+    as_key: 0
+    keep_undef: 1
+  - $default: null
+    $thing: null
+    as_key: 1
+    keep_undef: 0
+  - $default: null
+    $thing: null
+    as_key: 1
+    keep_undef: 1
+  result:
+    $default: null
+    $thing: {}
+    as_key: 1
+    keep_undef: ''
+- about: >
+    If `$thing` is undefined and
+    `as_key` is true the return
+    value is an empty hashref
+    regardless of the values of
+    `$default` and `keep_undef`.
+  args:
+  - $default: $defined_default
+    $thing: null
+    as_key: 1
+    keep_undef: 0
+  - $default: $defined_default
+    $thing: null
+    as_key: 1
+    keep_undef: 1
+  result:
+    $default: $defined_default
+    $thing: {}
+    as_key: 1
+    keep_undef: ''
+- about: >
+    If both `as_key` and
+    `keep_undef` are false and
+    `$thing` is undefined the
+    return value is an empty
+    hashref regardless of the value
+    of `$default`.
+  args:
+  - $default: $defined_default
+    $thing: null
+    as_key: 0
+    keep_undef: 0
+  result:
+    $default: $defined_default
+    $thing: {}
+    as_key: 0
+    keep_undef: 0

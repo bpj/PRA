@@ -1,0 +1,13 @@
+snippet "value(-?)" "Describe value" br
+`!p snip.rv = match.group(1) and "value:" or ""`
+- class: ${2:cons}
+	descr: ${3:null}
+	ipa: ${4:null}
+	prec:
+		- ${5:null}
+endsnippet
+
+snippet kdr "key with def reference as value"
+${1:KEY}:
+	\$ref: '#/definitions/${2:$1}'
+endsnippet

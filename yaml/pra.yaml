@@ -1,0 +1,5510 @@
+---
+letters:
+  a:
+    case: lc
+    cases:
+      uc:
+        char: A
+        code: U+0041
+        name: LATIN CAPITAL LETTER A
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: a
+      code: U+0061
+      name: LATIN SMALL LETTER A
+    pra_name: aa
+    status:
+      in_use: &1 true
+    type: letter
+    value:
+    - class: vowel
+      descr: low mid unrounded vowel
+      ipa: a̽
+      prec:
+      - Common
+  b:
+    case: lc
+    cases:
+      uc:
+        char: B
+        code: U+0042
+        name: LATIN CAPITAL LETTER B
+    changes:
+    - by: bpnullj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: b
+      code: U+0062
+      name: LATIN SMALL LETTER B
+    pra_name:
+    - ba
+    - be
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: voiced bilabial stop
+      ipa: b
+      prec:
+      - Common
+  c:
+    case: lc
+    cases:
+      uc:
+        char: C
+        code: U+0043
+        name: LATIN CAPITAL LETTER C
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: c
+      code: U+0063
+      name: LATIN SMALL LETTER C
+    pra_name:
+    - tsa
+    - tse
+    - name: Caesar
+      com: may be pronounced according to language
+    status:
+      alt_only: true
+      in_use: null
+    type: letter
+    value:
+    - class: cons
+      descr: voiceless sibilant affricates
+      ipa: ts
+      pra:
+      - ts
+      - s͇
+      prec:
+      - Common
+  d:
+    case: lc
+    cases:
+      uc:
+        char: D
+        code: U+0044
+        name: LATIN CAPITAL LETTER D
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: d
+      code: U+0064
+      name: LATIN SMALL LETTER D
+    pra_name:
+    - da
+    - de
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: d
+      prec:
+      - Common
+  e:
+    case: lc
+    cases:
+      uc:
+        char: E
+        code: U+0045
+        name: LATIN CAPITAL LETTER E
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: e
+      code: U+0065
+      name: LATIN SMALL LETTER E
+    pra_name: ee
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: vowel
+      descr: mid front unrounded vowel
+      ipa: e̞
+      prec:
+      - Common
+  f:
+    case: lc
+    cases:
+      uc:
+        char: F
+        code: U+0046
+        name: LATIN CAPITAL LETTER F
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: f
+      code: U+0066
+      name: LATIN SMALL LETTER F
+    pra_name:
+    - fa
+    - fe
+    - ef
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: f
+      prec:
+      - Common
+  g:
+    case: lc
+    cases:
+      uc:
+        char: G
+        code: U+0047
+        name: LATIN CAPITAL LETTER G
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: g
+      code: U+0067
+      name: LATIN SMALL LETTER G
+    pra_name:
+    - ga
+    - ge
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa:
+      - ɡ
+      - g
+      prec:
+      - Common
+  h:
+    case: lc
+    cases:
+      uc:
+        char: H
+        code: U+0048
+        name: LATIN CAPITAL LETTER H
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: h
+      code: U+0068
+      name: LATIN SMALL LETTER H
+    pra_name:
+    - ha
+    - he
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: h
+      prec:
+      - Common
+  i:
+    case: lc
+    cases:
+      uc:
+        char: I
+        code: U+0049
+        name: LATIN CAPITAL LETTER I
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: i
+      code: U+0069
+      name: LATIN SMALL LETTER I
+    pra_name: ii
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: vowel
+      descr: null
+      ipa: i
+      prec:
+      - Common
+  j:
+    case: lc
+    cases:
+      uc:
+        char: J
+        code: U+004A
+        name: LATIN CAPITAL LETTER J
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: j
+      code: U+006A
+      name: LATIN SMALL LETTER J
+    pra_name:
+    - yota
+    - iota
+    status:
+      alt_only: true
+      in_use: &2 false
+    type: letter
+    value:
+    - class: cons
+      com: |
+        Prefer «ʒ» when there is no diacritic or when
+        expectation for ‹j› is not similar to [dʒ].
+      descr: voiced sibilant fricatives
+      ipa: dz
+      pra:
+      - z͇
+      - ʒ
+      prec:
+      - Romanization of Armenian
+    - class: cons
+      descr: null
+      ipa: j
+      pra: y
+      prec:
+      - Germanic languages except English
+      - Slavic languages
+      - IPA
+      - UPA
+    - class: cons
+      descr: null
+      ipa: x
+      pra: ḵ
+      prec:
+      - Spanish orthograpy
+      - Latin American languages
+  k:
+    case: lc
+    cases:
+      uc:
+        char: K
+        code: U+004B
+        name: LATIN CAPITAL LETTER K
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: k
+      code: U+006B
+      name: LATIN SMALL LETTER K
+    pra_name:
+    - ka
+    - ke
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: k
+      prec:
+      - Common
+  l:
+    case: lc
+    cases:
+      uc:
+        char: L
+        code: U+004C
+        name: LATIN CAPITAL LETTER L
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: l
+      code: U+006C
+      name: LATIN SMALL LETTER L
+    pra_name:
+    - la
+    - le
+    - el
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: l
+      prec:
+      - Common
+  m:
+    case: lc
+    cases:
+      uc:
+        char: M
+        code: U+004D
+        name: LATIN CAPITAL LETTER M
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: m
+      code: U+006D
+      name: LATIN SMALL LETTER M
+    pra_name:
+    - ma
+    - me
+    - em
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: m
+      prec:
+      - Common
+  n:
+    case: lc
+    cases:
+      uc:
+        char: N
+        code: U+004E
+        name: LATIN CAPITAL LETTER N
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: n
+      code: U+006E
+      name: LATIN SMALL LETTER N
+    pra_name:
+    - na
+    - ne
+    - en
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: n
+      prec:
+      - Common
+  o:
+    case: lc
+    cases:
+      uc:
+        char: O
+        code: U+004F
+        name: LATIN CAPITAL LETTER O
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: o
+      code: U+006F
+      name: LATIN SMALL LETTER O
+    pra_name: oo
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: vowel
+      descr: mid back rounded vowel
+      ipa: o̞
+      prec:
+      - Common
+  p:
+    case: lc
+    cases:
+      uc:
+        char: P
+        code: U+0050
+        name: LATIN CAPITAL LETTER P
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: p
+      code: U+0070
+      name: LATIN SMALL LETTER P
+    pra_name:
+    - pa
+    - pe
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: p
+      prec:
+      - Common
+  q:
+    case: lc
+    cases:
+      uc:
+        char: Q
+        code: U+0051
+        name: LATIN CAPITAL LETTER Q
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: q
+      code: U+0071
+      name: LATIN SMALL LETTER Q
+    pra_name:
+    - kwa
+    - kwe
+    - ku
+    status:
+      alt_only: true
+      avoid: true
+      in_use: false
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: q
+      pra: ḳ
+      prec:
+      - Common
+    - class: cons
+      com: Sometimes used in Finnish grammars to denote normally unwritthen glottal stop.
+      descr: null
+      ipa: Ɂ
+      pra: ʾ
+      prec:
+      - Maltese orthography
+  r:
+    case: lc
+    cases:
+      uc:
+        char: R
+        code: U+0052
+        name: LATIN CAPITAL LETTER R
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: r
+      code: U+0072
+      name: LATIN SMALL LETTER R
+    com:
+    - Base letter for rhotics.
+    - May be used without diacritics for the most common rhotic of a language.
+    - |
+      When there is a trill contrasting with a non-trill rhotic «rr» or «r̄» vs. «r» or «r» vs. «r̆» may be used.
+    pra_name:
+    - ra
+    - re
+    - er
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      com:
+      - Use «r» for the most common one, and diacritics for the others. However always prefer «ṛ» for IPA [ɽ].
+      descr: coronal rhotic
+      ipa:
+        also:
+        - ɽ
+        either:
+        - r
+        - ɾ
+        - ɹ
+        - ɻ
+      ipa_to_pra:
+        r:
+        - r͛
+        - r̄
+        r̝:
+          pra: ř
+          prec: Czech orthography
+        ɹ: ṙ
+        ɻ: ṛ̇
+        ɽ: ṛ
+        ɾ:
+          diff: ř
+          pra: r̆
+      prec:
+      - Common
+  s:
+    case: lc
+    cases:
+      uc:
+        char: S
+        code: U+0053
+        name: LATIN CAPITAL LETTER S
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: s
+      code: U+0073
+      name: LATIN SMALL LETTER S
+    pra_name:
+    - sa
+    - se
+    - es
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: s
+      prec:
+      - Common
+  t:
+    case: lc
+    cases:
+      uc:
+        char: T
+        code: U+0054
+        name: LATIN CAPITAL LETTER T
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: t
+      code: U+0074
+      name: LATIN SMALL LETTER T
+    pra_name:
+    - ta
+    - te
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: t
+      prec:
+      - Common
+  u:
+    case: lc
+    cases:
+      uc:
+        char: U
+        code: U+0055
+        name: LATIN CAPITAL LETTER U
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: u
+      code: U+0075
+      name: LATIN SMALL LETTER U
+    pra_name: uu
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: vowel
+      descr: null
+      ipa: u
+      prec:
+      - Common
+  v:
+    case: lc
+    cases:
+      uc:
+        char: V
+        code: U+0056
+        name: LATIN CAPITAL LETTER V
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: v
+      code: U+0076
+      name: LATIN SMALL LETTER V
+    pra_name:
+    - va
+    - ve
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: v
+      prec:
+      - Common
+  w:
+    case: lc
+    cases:
+      uc:
+        char: W
+        code: U+0057
+        name: LATIN CAPITAL LETTER W
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: w
+      code: U+0077
+      name: LATIN SMALL LETTER W
+    pra_name:
+    - wa
+    - we
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: w
+      prec:
+      - Common
+  x:
+    case: lcqa
+    cases:
+      uc:
+        char: X
+        code: U+0058
+        name: LATIN CAPITAL LETTER X
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: x
+      code: U+0078
+      name: LATIN SMALL LETTER X
+    pra_name:
+    - eksa
+    - ekse
+    - eks
+    status:
+      alt_only: true
+      avoid: true
+      in_use: false
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: x
+      prec:
+      - Common
+      - Cyrillic ‹х›
+      - Greek ‹Χ, χ›
+    - class: cons
+      descr: null
+      ipa: ʃ
+      prec:
+      - Common
+      - Portuguese orthograpy
+      - Medieval Spanish orthograpy
+      - Latin American languages orthographies
+  y:
+    case: lc
+    cases:
+      uc:
+        char: Y
+        code: U+0059
+        name: LATIN CAPITAL LETTER Y
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: y
+      code: U+0079
+      name: LATIN SMALL LETTER Y
+    pra_name:
+    - ya
+    - ye
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: j
+      prec:
+      - Common
+  z:
+    case: lc
+    cases:
+      uc:
+        char: Z
+        code: U+005A
+        name: LATIN CAPITAL LETTER Z
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: z
+      code: U+007A
+      name: LATIN SMALL LETTER Z
+    pra_name:
+    - za
+    - ze
+    - zeta
+    status:
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: z
+      prec:
+      - Common
+  æ:
+    case: lc
+    cases:
+      uc:
+        char: Æ
+        code: U+00C6
+        name: LATIN CAPITAL LETTER AE
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: æ
+      code: U+00E6
+      name: LATIN SMALL LETTER AE
+    pra_name:
+      - aya
+      - aye
+    status:
+      alt_only: true
+      in_use: true
+    type: letter
+    value:
+    - class: vowel
+      descr: null
+      ipa: æ
+      pra: ä
+      prec:
+      - Common
+      - com: The original glyph resembles ‹ę›.
+        in: Normalized Old English orthograpy
+      - Medieval Scandinavian orthographies
+    - class: vowel
+      descr: null
+      ipa: ɛ
+      pra: ę
+      prec:
+      - com: Is [e] in modern Danish.
+        in: Danish and Norwegian orthographies
+  ł:
+    case: lc
+    cases:
+      uc:
+        char: Ł
+        code: U+0141
+        name: LATIN CAPITAL LETTER L WITH STROKE
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    - by: bpj
+      date: 2020-06-17
+      summary: extended description of handwritten form.
+    char:
+      char: ł
+      code: U+0142
+      name: LATIN SMALL LETTER L WITH STROKE
+    com: Common handwritten glyph resembles ‹l̃›, with the tilde attached at the top.
+    pra_name: lu
+    status:
+      alt_only: true
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: velarized or velar lateral.
+      ipa:
+      - ɫ
+      - ʟ
+      not:
+      - for: voiced velar or uvular fricative
+        prec: Transliteration of modern Armenian
+      - for: lateral fricative
+        prec: Americanists
+      pra: l̮
+      prec:
+      - com: |
+          Is [w] or [ɰ] in modern Polish.
+        in: Polish orthohrapy.
+      - com: |
+          The letter so transliterated is [ʁ] in modern Armenian.
+        in: Armenian transliteration.
+  ŋ:
+    case: lc
+    cases:
+      uc:
+        char: Ŋ
+        code: U+014A
+        name: LATIN CAPITAL LETTER ENG
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ŋ
+      code: U+014B
+      name: LATIN SMALL LETTER ENG
+    pra_name:a
+      name:
+        - eŋga
+        - eŋga
+      com: Named thus because in many languages /ŋ/ is not present
+    status:
+      alt_only: true
+      in_use: true
+    type: letter
+    value:
+    - class: cons
+      descr: null
+      ipa: ŋ
+      pra:
+      - n̮
+      - g̃
+      prec:
+      - Common
+  œ:
+    case: lc
+    cases:
+      uc:
+        char: Œ
+        code: U+0152
+        name: LATIN CAPITAL LIGATURE OE
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: œ
+      code: U+0153
+      name: LATIN SMALL LIGATURE OE
+    pra_name: 
+      - oya
+      - oye
+    status:
+      alt_only: true
+      in_use: true
+    type: letter
+    value:
+    - class: vowel
+      descr: null
+      ipa:
+      - œ
+      - ø
+      pra:
+      - ö
+      prec:
+      - Common
+  ɔ:
+    case: lc
+    cases:
+      uc:
+        char: Ɔ
+        code: U+0186
+        name: LATIN CAPITAL LETTER OPEN O
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ɔ
+      code: U+0254
+      name: LATIN SMALL LETTER OPEN O
+    com:
+    - Handwriting may be problematic.
+    - Cursive form once suggested by IPA resembles a cursive oldstyle digit ‹2› or small capital ‹Q›.
+    pra_name:
+      - owa
+      - open ee
+    status:
+      alt_only: true
+      in_use: *null1
+    type: letter
+    value:
+    - class: vowel
+      descr: null
+      ipa:
+      - ɔ
+      - ɒ
+      pra:
+      - ǫ
+      - å
+      prec:
+      - Common
+  ə:
+    case: lc
+    cases:
+      uc:
+        char: Ə
+        code: U+018F
+        name: LATIN CAPITAL LETTER SCHWA
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ə
+      code: U+0259
+      name: LATIN SMALL LETTER SCHWA
+    not:
+      for: low mid front unrounded vowel
+      pra: ę
+      prec:
+      - Soviet and post-soviet orthographies
+      - Similar Cyrillic letter
+    pra_name:
+      - šwa
+      - weak «ee»
+    status:
+      alt_only: true
+      in_use: true
+    type: letter
+    value:
+    - alt:
+        case: lc
+        cases:
+          uc: Ǝ
+        com:
+        - Used in African languages.
+        - Unicode discourages use other than for African languages.
+        - If used the proper lower case character U+01DD should be used.
+      class: vowel
+      descr: null
+      ipa: ə
+      pra: e̥
+      prec:
+      - Common
+  ɛ:
+    case: lc
+    cases:
+      uc:
+        char: Ɛ
+        code: U+0190
+        name: LATIN CAPITAL LETTER OPEN E
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ɛ
+      code: U+025B
+      name: LATIN SMALL LETTER OPEN E
+    pra_name: 
+      - eya
+      - open «ee»
+    status:
+      alt_only: true
+      in_use: true
+    type: letter
+    value:
+    - class: vowel
+      descr: null
+      ipa: ɛ
+      pra: ę
+      prec:
+      - Common
+  ʌ:
+    case: lc
+    cases:
+      uc:
+        char: Ʌ
+        code: U+0245
+        name: LATIN CAPITAL LETTER TURNED V
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʌ
+      code: U+028C
+      name: LATIN SMALL LETTER TURNED V
+    pra_name: 
+      - weak «aa»
+    status:
+      alt_only: true
+      in_use: false
+    type: letter
+    value:
+    - class: vowel
+      com: Handwriting may be problematic.
+      descr: low mid or low back or central unrounded vowel
+      ipa:
+      - ʌ
+      - ɐ
+      prec:
+      - Common
+  ʒ:
+    case: lc
+    cases:
+      uc:
+        char: Ʒ
+        code: U+01B7
+        name: LATIN CAPITAL LETTER EZH
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʒ
+      code: U+0292
+      name: LATIN SMALL LETTER EZH
+    com:
+    - In origin a cursive form of ‹z›.
+    - |
+      The Uralicist use for «dz» is possibly older than
+      the IPA use for «ž». In any case «ž» already has
+      an adequate representation while a letter
+      for «dz» to go with «c» for «ts» seems desirable,
+      and ‹j› is even more  problematic in this role.
+    not:
+      for: voiced palatoalveolar fricative or similar
+      com: appropriate as base for voiced palatoalveolar affricate «ǯ» or similar affrucates
+      pra: ž
+      prec: IPA
+    pra_name:
+    - dza
+    - dze
+    - «za» with tail
+    status:
+      alt_only: true
+      in_use: true
+      recom: true
+    type: letter
+    value:
+    - class: cons
+      descr: Voiced sibilant affricates
+      ipa: dz
+      pra:
+      - dz
+      - z͇
+      prec:
+      - UPA
+      - Slavicists
+marks:
+  ◌̀:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̀
+      code: U+0300
+      name: COMBINING GRAVE ACCENT
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: +laminal
+        example:
+          s̀:
+            ipa: s̻
+          ṣ̀:
+            com: Sublaminal because ordinary laminal is impossible with retroflex articulation.
+            descr: sublamino-postalveolar voiceless sibilant
+            ipa: ʂ̻
+        ipa: null
+    status:
+      in_use: true
+    type: mark
+    vowel:
+      type: vowel-mark
+      com:
+        - Use for falling tone in a contour tone system.
+        - Use for low tone in a register tone system.
+      value:
+      - class: pros
+        descr:
+        - falling tone
+        - low tone
+        ipa: null
+        prec:
+        - Common
+      - class: pros
+        descr: secondary stress
+        ipa: ˌ
+        prec:
+        - Common
+  ◌́:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌́
+      code: U+0301
+      name: COMBINING ACUTE ACCENT
+    cons:
+      type: cons-mark
+      value:
+      - alt:
+          code: U+02B9
+        class: feat
+        descr:
+        - +palatalized
+        - +palatal
+        example:
+          ǵ:
+            ipa: ɟ
+          ś:
+            ipa: sʲ
+          š́:
+            alt: ś
+            ipa: ɕ
+        ipa: ʲ
+        prec:
+        - Polish orthography
+        - Slavicists
+        - UPA
+        - IAST
+    status:
+      in_use: true
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: pros
+        descr:
+        - rising tone
+        - high tone
+        ipa: null
+        prec:
+        - Common
+      - class: pros
+        descr: primary stress
+        ipa: ˌ
+        prec:
+        - Common
+  ◌̂:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̂
+      code: U+0302
+      name: COMBINING CIRCUMFLEX ACCENT
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: +apical
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: true
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̃:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̃
+      code: U+0303
+      name: COMBINING TILDE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̄:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̄
+      code: U+0304
+      name: COMBINING MACRON
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̅:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̅
+      code: U+0305
+      name: COMBINING OVERLINE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̆:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̆
+      code: U+0306
+      name: COMBINING BREVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̇:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̇
+      code: U+0307
+      name: COMBINING DOT ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̈:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̈
+      code: U+0308
+      name: COMBINING DIAERESIS
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̉:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̉
+      code: U+0309
+      name: COMBINING HOOK ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̊:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̊
+      code: U+030A
+      name: COMBINING RING ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̋:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̋
+      code: U+030B
+      name: COMBINING DOUBLE ACUTE ACCENT
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̌:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̌
+      code: U+030C
+      name: COMBINING CARON
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̍:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̍
+      code: U+030D
+      name: COMBINING VERTICAL LINE ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̎:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̎
+      code: U+030E
+      name: COMBINING DOUBLE VERTICAL LINE ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̏:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̏
+      code: U+030F
+      name: COMBINING DOUBLE GRAVE ACCENT
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̐:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̐
+      code: U+0310
+      name: COMBINING CANDRABINDU
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̑:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̑
+      code: U+0311
+      name: COMBINING INVERTED BREVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̒:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̒
+      code: U+0312
+      name: COMBINING TURNED COMMA ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̓:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̓
+      code: U+0313
+      name: COMBINING COMMA ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̔:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̔
+      code: U+0314
+      name: COMBINING REVERSED COMMA ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̕:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̕
+      code: U+0315
+      name: COMBINING COMMA ABOVE RIGHT
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̖:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̖
+      code: U+0316
+      name: COMBINING GRAVE ACCENT BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̗:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̗
+      code: U+0317
+      name: COMBINING ACUTE ACCENT BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̘:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̘
+      code: U+0318
+      name: COMBINING LEFT TACK BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̙:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̙
+      code: U+0319
+      name: COMBINING RIGHT TACK BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̚:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̚
+      code: U+031A
+      name: COMBINING LEFT ANGLE ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̛:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̛
+      code: U+031B
+      name: COMBINING HORN
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̜:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̜
+      code: U+031C
+      name: COMBINING LEFT HALF RING BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̝:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̝
+      code: U+031D
+      name: COMBINING UP TACK BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̞:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̞
+      code: U+031E
+      name: COMBINING DOWN TACK BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̟:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̟
+      code: U+031F
+      name: COMBINING PLUS SIGN BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̠:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̠
+      code: U+0320
+      name: COMBINING MINUS SIGN BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̡:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̡
+      code: U+0321
+      name: COMBINING PALATALIZED HOOK BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̢:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̢
+      code: U+0322
+      name: COMBINING RETROFLEX HOOK BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̣:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̣
+      code: U+0323
+      name: COMBINING DOT BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̤:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̤
+      code: U+0324
+      name: COMBINING DIAERESIS BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̥:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̥
+      code: U+0325
+      name: COMBINING RING BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̦:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̦
+      code: U+0326
+      name: COMBINING COMMA BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̧:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̧
+      code: U+0327
+      name: COMBINING CEDILLA
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̨:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̨
+      code: U+0328
+      name: COMBINING OGONEK
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̩:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̩
+      code: U+0329
+      name: COMBINING VERTICAL LINE BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̪:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̪
+      code: U+032A
+      name: COMBINING BRIDGE BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̫:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̫
+      code: U+032B
+      name: COMBINING INVERTED DOUBLE ARCH BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̬:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̬
+      code: U+032C
+      name: COMBINING CARON BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̭:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̭
+      code: U+032D
+      name: COMBINING CIRCUMFLEX ACCENT BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̮:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̮
+      code: U+032E
+      name: COMBINING BREVE BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̯:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̯
+      code: U+032F
+      name: COMBINING INVERTED BREVE BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̰:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̰
+      code: U+0330
+      name: COMBINING TILDE BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̱:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̱
+      code: U+0331
+      name: COMBINING MACRON BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̲:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̲
+      code: U+0332
+      name: COMBINING LOW LINE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̳:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̳
+      code: U+0333
+      name: COMBINING DOUBLE LOW LINE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̴:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̴
+      code: U+0334
+      name: COMBINING TILDE OVERLAY
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̵:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̵
+      code: U+0335
+      name: COMBINING SHORT STROKE OVERLAY
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̶:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̶
+      code: U+0336
+      name: COMBINING LONG STROKE OVERLAY
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̷:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̷
+      code: U+0337
+      name: COMBINING SHORT SOLIDUS OVERLAY
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̸:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̸
+      code: U+0338
+      name: COMBINING LONG SOLIDUS OVERLAY
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̹:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̹
+      code: U+0339
+      name: COMBINING RIGHT HALF RING BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̺:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̺
+      code: U+033A
+      name: COMBINING INVERTED BRIDGE BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̻:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̻
+      code: U+033B
+      name: COMBINING SQUARE BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̼:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̼
+      code: U+033C
+      name: COMBINING SEAGULL BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̽:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̽
+      code: U+033D
+      name: COMBINING X ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̾:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̾
+      code: U+033E
+      name: COMBINING VERTICAL TILDE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌̿:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌̿
+      code: U+033F
+      name: COMBINING DOUBLE OVERLINE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͂:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͂
+      code: U+0342
+      name: COMBINING GREEK PERISPOMENI
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͆:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͆
+      code: U+0346
+      name: COMBINING BRIDGE ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͇:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͇
+      code: U+0347
+      name: COMBINING EQUALS SIGN BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͈:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͈
+      code: U+0348
+      name: COMBINING DOUBLE VERTICAL LINE BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͉:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͉
+      code: U+0349
+      name: COMBINING LEFT ANGLE BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͊:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͊
+      code: U+034A
+      name: COMBINING NOT TILDE ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͋:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͋
+      code: U+034B
+      name: COMBINING HOMOTHETIC ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͌:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͌
+      code: U+034C
+      name: COMBINING ALMOST EQUAL TO ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͍:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͍
+      code: U+034D
+      name: COMBINING LEFT RIGHT ARROW BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͎:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͎
+      code: U+034E
+      name: COMBINING UPWARDS ARROW BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͏:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͏
+      code: U+034F
+      name: COMBINING GRAPHEME JOINER
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͐:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͐
+      code: U+0350
+      name: COMBINING RIGHT ARROWHEAD ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͑:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͑
+      code: U+0351
+      name: COMBINING LEFT HALF RING ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͒:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͒
+      code: U+0352
+      name: COMBINING FERMATA
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͓:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͓
+      code: U+0353
+      name: COMBINING X BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͔:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͔
+      code: U+0354
+      name: COMBINING LEFT ARROWHEAD BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͕:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͕
+      code: U+0355
+      name: COMBINING RIGHT ARROWHEAD BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͖:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͖
+      code: U+0356
+      name: COMBINING RIGHT ARROWHEAD AND UP ARROWHEAD BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͗:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͗
+      code: U+0357
+      name: COMBINING RIGHT HALF RING ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͘:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͘
+      code: U+0358
+      name: COMBINING DOT ABOVE RIGHT
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͙:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͙
+      code: U+0359
+      name: COMBINING ASTERISK BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͚:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͚
+      code: U+035A
+      name: COMBINING DOUBLE RING BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͛:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͛
+      code: U+035B
+      name: COMBINING ZIGZAG ABOVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͜:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͜
+      code: U+035C
+      name: COMBINING DOUBLE BREVE BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͝:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͝
+      code: U+035D
+      name: COMBINING DOUBLE BREVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͞:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͞
+      code: U+035E
+      name: COMBINING DOUBLE MACRON
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͟:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͟
+      code: U+035F
+      name: COMBINING DOUBLE MACRON BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͠:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͠
+      code: U+0360
+      name: COMBINING DOUBLE TILDE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͡:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͡
+      code: U+0361
+      name: COMBINING DOUBLE INVERTED BREVE
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌͢:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌͢
+      code: U+0362
+      name: COMBINING DOUBLE RIGHTWARDS ARROW BELOW
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌ͣ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌ͣ
+      code: U+0363
+      name: COMBINING LATIN SMALL LETTER A
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌ͤ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌ͤ
+      code: U+0364
+      name: COMBINING LATIN SMALL LETTER E
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌ͥ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌ͥ
+      code: U+0365
+      name: COMBINING LATIN SMALL LETTER I
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌ͦ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌ͦ
+      code: U+0366
+      name: COMBINING LATIN SMALL LETTER O
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌ͧ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌ͧ
+      code: U+0367
+      name: COMBINING LATIN SMALL LETTER U
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌ͨ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌ͨ
+      code: U+0368
+      name: COMBINING LATIN SMALL LETTER C
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌ͩ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌ͩ
+      code: U+0369
+      name: COMBINING LATIN SMALL LETTER D
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌ͪ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌ͪ
+      code: U+036A
+      name: COMBINING LATIN SMALL LETTER H
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌ͫ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌ͫ
+      code: U+036B
+      name: COMBINING LATIN SMALL LETTER M
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌ͬ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌ͬ
+      code: U+036C
+      name: COMBINING LATIN SMALL LETTER R
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌ͭ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌ͭ
+      code: U+036D
+      name: COMBINING LATIN SMALL LETTER T
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌ͮ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌ͮ
+      code: U+036E
+      name: COMBINING LATIN SMALL LETTER V
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+  ◌ͯ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ◌ͯ
+      code: U+036F
+      name: COMBINING LATIN SMALL LETTER X
+    cons:
+      type: cons-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+    status:
+      in_use: false
+    type: mark
+    vowel:
+      type: vowel-mark
+      value:
+      - class: feat
+        descr: null
+        ipa: null
+        prec:
+        - null
+modifier_letters:
+  ʰ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʰ
+      code: U+02B0
+      name: MODIFIER LETTER SMALL H
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʱ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʱ
+      code: U+02B1
+      name: MODIFIER LETTER SMALL H WITH HOOK
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʲ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʲ
+      code: U+02B2
+      name: MODIFIER LETTER SMALL J
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʳ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʳ
+      code: U+02B3
+      name: MODIFIER LETTER SMALL R
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʴ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʴ
+      code: U+02B4
+      name: MODIFIER LETTER SMALL TURNED R
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʵ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʵ
+      code: U+02B5
+      name: MODIFIER LETTER SMALL TURNED R WITH HOOK
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʶ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʶ
+      code: U+02B6
+      name: MODIFIER LETTER SMALL CAPITAL INVERTED R
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʷ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʷ
+      code: U+02B7
+      name: MODIFIER LETTER SMALL W
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʸ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʸ
+      code: U+02B8
+      name: MODIFIER LETTER SMALL Y
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʹ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʹ
+      code: U+02B9
+      name: MODIFIER LETTER PRIME
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʺ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʺ
+      code: U+02BA
+      name: MODIFIER LETTER DOUBLE PRIME
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʻ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʻ
+      code: U+02BB
+      name: MODIFIER LETTER TURNED COMMA
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʼ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʼ
+      code: U+02BC
+      name: MODIFIER LETTER APOSTROPHE
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʽ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʽ
+      code: U+02BD
+      name: MODIFIER LETTER REVERSED COMMA
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʾ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʾ
+      code: U+02BE
+      name: MODIFIER LETTER RIGHT HALF RING
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ʿ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ʿ
+      code: U+02BF
+      name: MODIFIER LETTER LEFT HALF RING
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˀ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˀ
+      code: U+02C0
+      name: MODIFIER LETTER GLOTTAL STOP
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˁ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˁ
+      code: U+02C1
+      name: MODIFIER LETTER REVERSED GLOTTAL STOP
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˂:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˂
+      code: U+02C2
+      name: MODIFIER LETTER LEFT ARROWHEAD
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˃:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˃
+      code: U+02C3
+      name: MODIFIER LETTER RIGHT ARROWHEAD
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˄:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˄
+      code: U+02C4
+      name: MODIFIER LETTER UP ARROWHEAD
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˅:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˅
+      code: U+02C5
+      name: MODIFIER LETTER DOWN ARROWHEAD
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˆ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˆ
+      code: U+02C6
+      name: MODIFIER LETTER CIRCUMFLEX ACCENT
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˇ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˇ
+      code: U+02C7
+      name: CARON
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˈ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˈ
+      code: U+02C8
+      name: MODIFIER LETTER VERTICAL LINE
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˉ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˉ
+      code: U+02C9
+      name: MODIFIER LETTER MACRON
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˊ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˊ
+      code: U+02CA
+      name: MODIFIER LETTER ACUTE ACCENT
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˋ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˋ
+      code: U+02CB
+      name: MODIFIER LETTER GRAVE ACCENT
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˌ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˌ
+      code: U+02CC
+      name: MODIFIER LETTER LOW VERTICAL LINE
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˍ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˍ
+      code: U+02CD
+      name: MODIFIER LETTER LOW MACRON
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˎ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˎ
+      code: U+02CE
+      name: MODIFIER LETTER LOW GRAVE ACCENT
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˏ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˏ
+      code: U+02CF
+      name: MODIFIER LETTER LOW ACUTE ACCENT
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ː:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ː
+      code: U+02D0
+      name: MODIFIER LETTER TRIANGULAR COLON
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˑ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˑ
+      code: U+02D1
+      name: MODIFIER LETTER HALF TRIANGULAR COLON
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˒:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˒
+      code: U+02D2
+      name: MODIFIER LETTER CENTRED RIGHT HALF RING
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˓:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˓
+      code: U+02D3
+      name: MODIFIER LETTER CENTRED LEFT HALF RING
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˔:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˔
+      code: U+02D4
+      name: MODIFIER LETTER UP TACK
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˕:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˕
+      code: U+02D5
+      name: MODIFIER LETTER DOWN TACK
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˖:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˖
+      code: U+02D6
+      name: MODIFIER LETTER PLUS SIGN
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˗:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˗
+      code: U+02D7
+      name: MODIFIER LETTER MINUS SIGN
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˘:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˘
+      code: U+02D8
+      name: BREVE
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˙:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˙
+      code: U+02D9
+      name: DOT ABOVE
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˚:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˚
+      code: U+02DA
+      name: RING ABOVE
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˛:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˛
+      code: U+02DB
+      name: OGONEK
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˜:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˜
+      code: U+02DC
+      name: SMALL TILDE
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˝:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˝
+      code: U+02DD
+      name: DOUBLE ACUTE ACCENT
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˞:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˞
+      code: U+02DE
+      name: MODIFIER LETTER RHOTIC HOOK
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˟:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˟
+      code: U+02DF
+      name: MODIFIER LETTER CROSS ACCENT
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˠ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˠ
+      code: U+02E0
+      name: MODIFIER LETTER SMALL GAMMA
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˡ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˡ
+      code: U+02E1
+      name: MODIFIER LETTER SMALL L
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˢ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˢ
+      code: U+02E2
+      name: MODIFIER LETTER SMALL S
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˣ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˣ
+      code: U+02E3
+      name: MODIFIER LETTER SMALL X
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˤ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˤ
+      code: U+02E4
+      name: MODIFIER LETTER SMALL REVERSED GLOTTAL STOP
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˥:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˥
+      code: U+02E5
+      name: MODIFIER LETTER EXTRA-HIGH TONE BAR
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˦:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˦
+      code: U+02E6
+      name: MODIFIER LETTER HIGH TONE BAR
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˧:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˧
+      code: U+02E7
+      name: MODIFIER LETTER MID TONE BAR
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˨:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˨
+      code: U+02E8
+      name: MODIFIER LETTER LOW TONE BAR
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˩:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˩
+      code: U+02E9
+      name: MODIFIER LETTER EXTRA-LOW TONE BAR
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˪:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˪
+      code: U+02EA
+      name: MODIFIER LETTER YIN DEPARTING TONE MARK
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˫:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˫
+      code: U+02EB
+      name: MODIFIER LETTER YANG DEPARTING TONE MARK
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˬ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˬ
+      code: U+02EC
+      name: MODIFIER LETTER VOICING
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˭:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˭
+      code: U+02ED
+      name: MODIFIER LETTER UNASPIRATED
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˮ:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˮ
+      code: U+02EE
+      name: MODIFIER LETTER DOUBLE APOSTROPHE
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˯:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˯
+      code: U+02EF
+      name: MODIFIER LETTER LOW DOWN ARROWHEAD
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˰:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˰
+      code: U+02F0
+      name: MODIFIER LETTER LOW UP ARROWHEAD
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˱:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˱
+      code: U+02F1
+      name: MODIFIER LETTER LOW LEFT ARROWHEAD
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˲:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˲
+      code: U+02F2
+      name: MODIFIER LETTER LOW RIGHT ARROWHEAD
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˳:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˳
+      code: U+02F3
+      name: MODIFIER LETTER LOW RING
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˴:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˴
+      code: U+02F4
+      name: MODIFIER LETTER MIDDLE GRAVE ACCENT
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˵:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˵
+      code: U+02F5
+      name: MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˶:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˶
+      code: U+02F6
+      name: MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˷:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˷
+      code: U+02F7
+      name: MODIFIER LETTER LOW TILDE
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˸:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˸
+      code: U+02F8
+      name: MODIFIER LETTER RAISED COLON
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˹:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˹
+      code: U+02F9
+      name: MODIFIER LETTER BEGIN HIGH TONE
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˺:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˺
+      code: U+02FA
+      name: MODIFIER LETTER END HIGH TONE
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˻:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˻
+      code: U+02FB
+      name: MODIFIER LETTER BEGIN LOW TONE
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˼:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˼
+      code: U+02FC
+      name: MODIFIER LETTER END LOW TONE
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˽:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˽
+      code: U+02FD
+      name: MODIFIER LETTER SHELF
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˾:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˾
+      code: U+02FE
+      name: MODIFIER LETTER OPEN SHELF
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null
+  ˿:
+    changes:
+    - by: bpj
+      date: 2020-05-10
+      summary: Entered
+    char:
+      char: ˿
+      code: U+02FF
+      name: MODIFIER LETTER LOW LEFT ARROW
+    status:
+      in_use: false
+    type: modifier
+    value:
+    - descr: null
+      ipa: null
+      prec:
+      - null

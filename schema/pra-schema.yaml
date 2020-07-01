@@ -1,0 +1,127 @@
+defs:
+  string_array:
+    description: A string or an array of strings
+    type:
+      - string
+      - array
+    items:
+      type: string
+  changes:
+    oneOf:
+      - $ref: '#/definitions/change'
+      - type: array
+        items:
+          $ref: '#/definitions/change'
+  change:
+    type: object
+    properties:
+      by:
+        description: The id(s) of the contributor(s) who made the change
+        $ref: '#/definitions/string_array'
+      date:
+        type: string
+        format: date
+      summary:
+        type: string
+      descr:
+        description: descriptions of the changes
+        $ref: '#/definitions/string_array'
+      com:
+        description: comments on the changes
+        $ref: '#/definitions/string_array'
+    required:
+      - by
+      - date
+      - summary
+  
+  status:
+    type: object
+    properties:
+      in_use:
+        type: boolean
+      alt_only:
+        type: boolean
+      avoid:
+        type: boolean
+      recom:
+        type: boolean
+
+  letter:
+    properties:
+      case:
+        enum:
+          - none
+          - lc
+          - tc
+          - uc
+        default: lc
+      cases:
+        $ref: '#/definitions/case_vars'
+      changes:
+        $ref: '#/definitions/changes'
+      status:
+        $ref: '#/definitions/status'
+      type:
+        enum:
+          letter
+      value:
+        $ref: '#/definitions/value'
+     
+  case_vars:
+    title: case variations
+    description: |
+      Case variations of a letter; typically just `uc` because the letter itself is `lc`.
+    properties:
+      uc:
+        title: uppercase
+        $ref: '#/definitions/chars'
+      tc:
+        title: titlecase
+        $ref: '#/definitions/chars'
+      lc:
+        title: lowercase
+        $ref: '#/definitions/chars'
+  char:
+    title: Unicode character
+    description: a Unicode character
+    properties:
+      char:
+        $ref '#/definitions/charstring'
+      name:
+        $ref '#/definitions/charname'
+      code:
+        $ref '#/definitions/codepoint'
+  chars:
+    title: Unicode character sequence
+    description: |
+      A sequence of one or more Unicode characters.
+      Prototypically an array of `char` entries but may be abbreviated to 
+    oneOf:
+      - $ref: '#/definitions/char'
+      - type: object
+        properties:
+          string:
+            type: string
+            minLength: 1
+          chars:
+            type: array
+            items:
+              $ref: '#/definitions/char'
+  charstring:
+    title: character string
+    description: a string containing a Unicode character (UTF-8 byte sequence)
+    type: string
+    minLength: 1
+  charname:
+    title: Unicode name
+    description: the Unicode name of a character
+    type:
+      - string
+  codepoint:
+    title: Unicode codepoint
+    description: the Unicode codepoint of a character
+    type: string
+    pattern: '^U\+[0-9A-F]{4,6}$'
+      
+
+        

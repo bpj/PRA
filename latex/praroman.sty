@@ -1,0 +1,17 @@
+\NewDocumentCommand\PRAleft{ m o o }{%
+    \newunicodechar{#1}{%
+      \IfNoValueF{#2}{#2}%
+      \begingroup%
+      \IfNoValueF{#3}{#3}%
+    }%
+}
+\NewDocumentCommand\PRAright{ m o o }{%
+    \newunicodechar{#1}{%
+      \IfNoValueF{#2}{#2}%
+      \endgroup%
+      \IfNoValueF{#3}{#3}%
+    }%
+}
+\PRAleft{«}[\textbf\begingroup\textit]
+\PRAright{»}[\endgroup]
+\PRAleft{‹}
