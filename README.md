@@ -1,6 +1,6 @@
 # PRA — The Practical Romanization Alphabet
 
-PRA aims to become a set of practical recommendations and suggestions for the [romanization][] of [natural language][]s and naturalistic [constructed languages][] (primarily [artistic languages][] — because that is where my interest in the field lies — but in principle any [engineered language][] or [auxiliary language][] which has a more or less conventional [phonetic-medium][] [phonology][]). Programming languages, which do not have a [phonology][] as commonly understood in linguistics are thus not concerned. Also out of scope are such natural and naturalistic languages which do not use the \[phonetic\]\[phonetic\] channel, such as [signed language][]s, not because they are any less languages or any less natural(istic) but because romanization as commonly understood makes little sense for them, since the [Latin/Roman][] [alphabet][] is usually used to encode [spoken language][]. (Feel free to make a case to the contrary, but I rather believe that a system different from PRA would be more appropriate to encode such languages using “alphabetic” signs!)
+PRA aims to become a set of practical recommendations and suggestions for the [romanization][] of [natural language][]s and naturalistic [constructed languages][] (primarily [artistic languages][] — because that is where my interest in the field lies — but in principle usable also for any [engineered language][] or [auxiliary language][] which has a more or less conventional [phonetic-medium][] [phonology][]). Programming languages, which do not have a [phonology][] as commonly understood in linguistics are thus not concerned. Also out of scope are such natural and naturalistic languages which do not use the [phonetic][phonetic-medium] channel, such as [signed language][]s, not because they are any less languages or any less natural(istic) but because romanization as commonly understood makes little sense for them, since the [Latin/Roman][] [alphabet][] is usually used to encode [spoken language][]. (Feel free to make a case to the contrary, but I rather believe that a system different from PRA would be more appropriate to encode such languages using “alphabetic” signs!)
 
 ## Principles
 
@@ -34,7 +34,7 @@ The PRA project has two principal parts:
 
 1.  The description and documentation of the system itself and for its secondary goal of collecting information on existing scholarly and bibliographic romanization practices. Eventually a separate website for this purpose will be set up.
 
-2.  Software to assist the documentation and management of the system itself as well as to aid in the creation and use of romaanizations using the system.
+2.  Software to assist the documentation and management of the system itself as well as to aid in the creation and use of romanizations using the system.
 
 Currently this [GitHub repository][] serves both purposes as it contains both the data and software for use in the codification and documentation of PRA.
 
