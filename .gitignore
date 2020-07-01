@@ -1,5 +1,6 @@
-Lingua-PRA/**
-backup/**
-zip/**
+Lingua-PRA/
+backup/
+zip/
 perltidy.ERR
+*.sw[a-z]
 
