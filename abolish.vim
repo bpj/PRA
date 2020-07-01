@@ -8,3 +8,11 @@ Abolish fs false
 Abolish tu true
 Abolish uf `undef`
 Abolish lpu Lingua::PRA::Utils
+Abolish rz romanize
+Abolish rzs romanizes
+Abolish rzd romanized
+Abolish rzn romanization
+Abolish rzns romanization
+Abolish rzg romanizing
+
+Abolish unc Unicode

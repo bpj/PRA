@@ -1,0 +1,6 @@
+from: markdown+four_space_rule-shortcut_reference_links-tex_math_dollars
+to: markdown_github-shortcut_reference_links
+wrap: none
+reference-links: true
+atx-headers: true
+

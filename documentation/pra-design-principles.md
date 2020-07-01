@@ -59,6 +59,13 @@ explanations.
     an assumption which usually is safe for the Latin-1 Supplement,
     Latin Extended-A and Latin Extended-B blocks.
 
+    This does not mean that a valid PRA romanization cannot
+    use Unicode characters from other blocks, but these are
+    then always alternatives to "core" notations using
+    characters from these three blocks. Nor are *all*
+    characters from these three blocks part of the PRA
+    "core", not even all the Basic Latin letters!
+
 1.  PRA does as far as possible build on existing
     scholarly, bibliographic and similar romanization
     precedents and precedents in existing orthographies,
@@ -68,15 +75,22 @@ explanations.
     phonetic transcription systems, in particular the
     [IPA](-).
 
+    In particular the intention is that texts using PRA
+    shall, or at least can, use normal conventions of
+    capitalization and punctuation, as adapted to the
+    language being romanized and/or adopted from some
+    language known to the intended audience.
+
     While this does not mean that PRA cannot be used for
     phonetic transcription that is not its primary goal.
 
 1.  PRA extends the Basic Latin alphabet primarily with
-    diacritical marks. Digraphs should only be used
-    where their meanings can be reasonably deduced from
-    their components, and modifier letters should only
-    be used when they are effectively alternatives to
-    diacritics or no other obvious candidates are in wide common use.
+    diacritical marks. Digraphs should only be used where
+    their meanings can be reasonably deduced from their
+    components, and modifier letters should only be used
+    when they are effectively alternatives to diacritics or
+    no other obvious candidate letters are in wide common
+    use.
 
     Appropriate use of digraphs include
 
@@ -104,58 +118,57 @@ explanations.
         +   !prauni(ʿ)(U+02BF)(MODIFIER LETTER LEFT HALF RING)
             is used for the voiced pharyngeal fricative.
 
-    1.  PRA avoids, when reasonably possible,
-        notations which may be ambiguous because of
-        significant differences between existing
-        orthographies, at least in the
-        core.
+1.  PRA avoids, when reasonably possible, notations which
+    may be ambiguous because of significant differences
+    between existing orthographies and scholarly or
+    bibliographic traditions, at least in the core.
 
-        As a consequence of this the Basic Latin letters
-        !gr‹c, j, q, x› are not used in the PRA core,
-        since different languages use these letters
-        for widely differing sounds.
+    As a consequence of this the Basic Latin letters !gr‹c,
+    j, q, x› are not used in the PRA core, since different
+    languages use these letters for widely differing sounds.
 
-        An obvious exception is made in that the very
-        divergent pronunciation of the Basic Latin vowel
-        letters is not allowed to stand in the way of the
-        use of those letters. Everyone whose native language
-        is written with the Latin alphabet and who has
-        learnt English as a foreign language is well aware
-        of how singularly divergent English is, so that only
-        some who know no other language written in the Latin
-        alphabet than English (some monolingual English
-        speakers included) are unaware of the fact. It seems
-        altogether reasonable to use the letters !gr‹a, e,
-        i, o, u› with the "classical" values which they have
-        in Spanish and many other languages.
+    An obvious exception is made in that the very divergent
+    pronunciation of the Basic Latin vowel letters in
+    English is not allowed to stand in the way of the use of
+    those letters with values like those upon which most
+    other languages written in the Latin alphabet agree.
+    Everyone whose native language is written
+    with the Latin alphabet and who has learnt English as
+    a foreign language is well aware of how singularly
+    divergent English is, so that only some who know no
+    other language written in the Latin alphabet than
+    English (some monolingual English speakers included) are
+    unaware of the fact.
+    It seems altogether reasonable to
+    use the letters !gr‹a, e, i, o, u› with the "classical"
+    values which they have in Spanish and many other
+    languages.
 
-    1.  Beside the core PRA permits some alternative
-        letters and diacritics, currently only
-        from these Unicode blocks:
+1.  Beside the core PRA permits some alternative letters and
+    diacritics, currently only from these Unicode blocks:
 
-        -   Basic Latin
-        -   Latin-1 Supplement
-        -   Latin Extended-A
-        -   Latin Extended-B
-        -   IPA Extensions
-        -   Spacing Modifier Letters
-        -   Combining Diacritical Marks
+    -   Basic Latin
+    -   Latin-1 Supplement
+    -   Latin Extended-A
+    -   Latin Extended-B
+    -   IPA Extensions
+    -   Spacing Modifier Letters
+    -   Combining Diacritical Marks
 
-        Alternative letters, except modifier letters must
-        have an uppercase—lowercase pair in
-        Unicode.
+    Alternative letters, except modifier letters must have
+    an uppercase—lowercase pair in Unicode.
 
-        Currently recognised alternative letters include:
+    Currently recognised alternative letters include:
 
-        
-        -   !prauni(c)(U+0063)(LATIN SMALL LETTER C), usable for either
-           !pra«ts, s͇» or !pra«ʿ».
+    
+    -   !prauni(c)(U+0063)(LATIN SMALL LETTER C), usable for
+        either !pra«ts, s͇» or !pra«ʿ».
 
-        -   !prauni(ʒ)(U+0292)(LATIN SMALL LETTER EZH), usable for
-            !pra«dz, z͇».
+    -   !prauni(ʒ)(U+0292)(LATIN SMALL LETTER EZH), usable
+        for !pra«dz, z͇».
 
-        -   !prauni(ŋ)(U+014B)(LATIN SMALL LETTER ENG) (ng), usable
-            for !pra«n̮, g̃» or !pra«Ṽ».
+    -   !prauni(ŋ)(U+014B)(LATIN SMALL LETTER ENG) (ng),
+        usable for !pra«n̮, g̃» or !pra«Ṽ».
 
 
 
