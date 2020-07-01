@@ -20,7 +20,7 @@ The principles of PRA are described in the [PRA design principles][] (very much 
 
     While this does not mean that PRA cannot be used for phonetic transcription that is not its primary goal.
 
--   PRA extends the Basic Latin alphabet primarily with [diacritical marks][]. [Digraph][]s should only be used where their meanings can be reasonably deduced from their components, and modifier letters should only be used when they are effectively alternatives to diacritics or no other obvious candidate letterss are in wide common use.
+-   PRA extends the Basic Latin alphabet primarily with [diacritical marks][]. [Digraph][]s should only be used where their meanings can be reasonably deduced from their components, and modifier letters should only be used when they are effectively alternatives to diacritics or no other obvious candidate letters are in wide common use.
 
 -   PRA avoids, when reasonably possible, notations which may be ambiguous because of significant differences between existing orthographies and scholarly or bibliographic traditions, at least in the core.
 
@@ -32,7 +32,7 @@ The principles of PRA are described in the [PRA design principles][] (very much 
 
 The PRA project has two principal parts:
 
-1.  The description and documentation of the system itself and for its secondary goal of collecting information on existing scholarly and bibliographic romanization practices. Eventually a separate website for this purpose will be set up.
+1.  The description and documentation of the system itself and its secondary goal of collecting information on existing scholarly and bibliographic romanization practices. Eventually a separate website for this purpose will be set up.
 
 2.  Software to assist the documentation and management of the system itself as well as to aid in the creation and use of romanizations using the system.
 
