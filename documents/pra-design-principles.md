@@ -92,6 +92,18 @@ explanations.
     no other obvious candidate letters are in wide common
     use.
 
+    One important virtue of diacritics compared to novel
+    letters is that someone unfamiliar with the system
+    can still form *some* idea — however inaccurate — of a
+    pronunciation by simply ignoring the diacritics,
+    while a word or phrase containing many novel
+    letters may appear as a jumble of unfamiliar shapes
+    which can't even be described. If you know the
+    IPA it may be obvious that ‹ʃ› is not a kind of ‹f›,
+    that ‹ɣ› is not a kind of ‹v› and ‹ɹ› is not a kind of
+    ‹u› but if you never learnt the IPA it is not at all
+    obvious.
+
     Appropriate use of digraphs include
 
     -   The use of !pra«y» after a consonant to indicate palatal or
