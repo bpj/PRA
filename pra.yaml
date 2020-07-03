@@ -1,4 +1,17 @@
 ---
+general_notes:
+  - work_in_progress:
+      - As of 2020-07-03 this file is very much "alpha" work in progress, and will so remain until this note is removed. Meanwhile you shouldn't rely on its contents or format. It can and will change without notice!
+
+      - The "content" of the 'marks' and 'modifiers' sections are as yet mostly auto-generated boilerplate stubs. The presence of a character in these sections is as yet no indication that the character is (going to be) part of PRA.
+
+      - >
+        The 'letters' section is mostly done, but not very interesting since at least the "core" base letters are merely a subset of the Basic Latin alphabet where most letters have their IPA/Classical Latin values. The main, and unsurprising, exception is «y» which denotes a voiced palatal approximant consonant, IPA [j].
+
+        In the 'value' sections the 'descr' (description) fields are as yet only filled in when the value differs significantly from the IPA value. Meanwhile the 'ipa' fields are the most reliable guide to the value of the PRA letters.
+      - >
+        The 'marks' section (very incomplete as of 2020-07-03) is the most important section, since diacritics extend the sign inventory by adding/removing/reversing phonetic features in base letters.
+
 letters:
   a:
     case: lc
