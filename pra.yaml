@@ -1,17 +1,13 @@
 ---
 general_notes:
-  - work_in_progress:
-      - As of 2020-07-03 this file is very much "alpha" work in progress, and will so remain until this note is removed. Meanwhile you shouldn't rely on its contents or format. It can and will change without notice!
-
-      - The "content" of the 'marks' and 'modifiers' sections are as yet mostly auto-generated boilerplate stubs. The presence of a character in these sections is as yet no indication that the character is (going to be) part of PRA.
-
-      - >
-        The 'letters' section is mostly done, but not very interesting since at least the "core" base letters are merely a subset of the Basic Latin alphabet where most letters have their IPA/Classical Latin values. The main, and unsurprising, exception is «y» which denotes a voiced palatal approximant consonant, IPA [j].
-
-        In the 'value' sections the 'descr' (description) fields are as yet only filled in when the value differs significantly from the IPA value. Meanwhile the 'ipa' fields are the most reliable guide to the value of the PRA letters.
-      - >
-        The 'marks' section (very incomplete as of 2020-07-03) is the most important section, since diacritics extend the sign inventory by adding/removing/reversing phonetic features in base letters.
-
+- work_in_progress:
+  - As of 2020-07-03 this file is very much "alpha" work in progress, and will so remain until this note is removed. Meanwhile you shouldn't rely on its contents or format. It can and will change without notice!
+  - The "content" of the 'marks' and 'modifiers' sections are as yet mostly auto-generated boilerplate stubs. The presence of a character in these sections is as yet no indication that the character is (going to be) part of PRA.
+  - |
+    The 'letters' section is mostly done, but not very interesting since at least the "core" base letters are merely a subset of the Basic Latin alphabet where most letters have their IPA/Classical Latin values. The main, and unsurprising, exception is «y» which denotes a voiced palatal approximant consonant, IPA [j].
+    In the 'value' sections the 'descr' (description) fields are as yet only filled in when the value differs significantly from the IPA value. Meanwhile the 'ipa' fields are the most reliable guide to the value of the PRA letters.
+  - |
+    The 'marks' section (very incomplete as of 2020-07-03) is the most important section, since diacritics extend the sign inventory by adding/removing/reversing phonetic features in base letters.
 letters:
   a:
     case: lc
@@ -33,8 +29,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: vowel
-      descr: low mid unrounded vowel
+      class: vowel
+      descr:
+      - low mid unrounded vowel
       ipa: a̽
       prec:
       - Common
@@ -60,8 +57,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: voiced bilabial stop
+      class: cons
+      descr:
+      - voiced bilabial stop
       ipa: b
       prec:
       - Common
@@ -90,8 +88,9 @@ letters:
       in_use: null
     type: letter
     value:
-    - class: cons
-      descr: voiceless sibilant affricates
+      class: cons
+      descr:
+      - voiceless sibilant affricates
       ipa: ts
       pra:
       - ts
@@ -120,8 +119,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiced alveolar stop
       ipa: d
       prec:
       - Common
@@ -145,8 +145,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: vowel
-      descr: mid front unrounded vowel
+      class: vowel
+      descr:
+      - mid front unrounded vowel
       ipa: e̞
       prec:
       - Common
@@ -173,8 +174,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiceless labiodental fricative
       ipa: f
       prec:
       - Common
@@ -200,8 +202,10 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiced velar stop
+      - voiced velar stop
       ipa:
       - ɡ
       - g
@@ -229,8 +233,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiceless glottal fricative
       ipa: h
       prec:
       - Common
@@ -254,8 +259,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: vowel
-      descr: null
+      class: vowel
+      descr:
+      - closed unrounded front vowel
       ipa: i
       prec:
       - Common
@@ -286,7 +292,8 @@ letters:
       com: |
         Prefer «ʒ» when there is no diacritic or when
         expectation for ‹j› is not similar to [dʒ].
-      descr: voiced sibilant fricatives
+      descr:
+      - voiced sibilant fricatives
       ipa: dz
       pra:
       - z͇
@@ -294,7 +301,8 @@ letters:
       prec:
       - Romanization of Armenian
     - class: cons
-      descr: null
+      descr:
+      - voiced palatal approximant
       ipa: j
       pra: y
       prec:
@@ -303,7 +311,8 @@ letters:
       - IPA
       - UPA
     - class: cons
-      descr: null
+      descr:
+      - voiceless velar fricative
       ipa: x
       pra: ḵ
       prec:
@@ -331,8 +340,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiceless velar stop
       ipa: k
       prec:
       - Common
@@ -359,8 +369,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiced alveolar lateral
       ipa: l
       prec:
       - Common
@@ -387,8 +398,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiced bilabial nasal
       ipa: m
       prec:
       - Common
@@ -415,8 +427,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiced alveolar nasal
       ipa: n
       prec:
       - Common
@@ -440,8 +453,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: vowel
-      descr: mid back rounded vowel
+      class: vowel
+      descr:
+      - mid back rounded vowel
       ipa: o̞
       prec:
       - Common
@@ -467,8 +481,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiceless bilabial stop
       ipa: p
       prec:
       - Common
@@ -498,14 +513,15 @@ letters:
     type: letter
     value:
     - class: cons
-      descr: null
+      descr:
+      - voiceless uvular stop
       ipa: q
       pra: ḳ
       prec:
       - Common
     - class: cons
       com: Sometimes used in Finnish grammars to denote normally unwritthen glottal stop.
-      descr: null
+      descr: []
       ipa: Ɂ
       pra: ʾ
       prec:
@@ -538,10 +554,11 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
+      class: cons
       com:
       - Use «r» for the most common one, and diacritics for the others. However always prefer «ṛ» for IPA [ɽ].
-      descr: coronal rhotic
+      descr:
+      - coronal rhotic
       ipa:
         also:
         - ɽ
@@ -588,8 +605,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiceless alveolar sibilant fricative
       ipa: s
       prec:
       - Common
@@ -615,8 +633,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiceless alveolar stop
       ipa: t
       prec:
       - Common
@@ -640,8 +659,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: vowel
-      descr: null
+      class: vowel
+      descr:
+      - closed back rounded vowel
       ipa: u
       prec:
       - Common
@@ -667,8 +687,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiced labiodental fricative
       ipa: v
       prec:
       - Common
@@ -694,8 +715,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiced labiovelar approximant
       ipa: w
       prec:
       - Common
@@ -725,14 +747,16 @@ letters:
     type: letter
     value:
     - class: cons
-      descr: null
+      descr:
+      - voiceless velar fricative
       ipa: x
       prec:
       - Common
       - Cyrillic ‹х›
       - Greek ‹Χ, χ›
     - class: cons
-      descr: null
+      descr:
+      - voiceless palatoalveolar sibilant fricative
       ipa: ʃ
       prec:
       - Common
@@ -761,8 +785,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiced palatal approximant
       ipa: j
       prec:
       - Common
@@ -789,8 +814,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiced alveolar sibilant fricative
       ipa: z
       prec:
       - Common
@@ -818,7 +844,8 @@ letters:
     type: letter
     value:
     - class: vowel
-      descr: null
+      descr:
+      - near-low front unrounded vowel
       ipa: æ
       pra: ä
       prec:
@@ -827,7 +854,8 @@ letters:
         in: Normalized Old English orthograpy
       - Medieval Scandinavian orthographies
     - class: vowel
-      descr: null
+      descr:
+      - low-mid front unrounded vowel
       ipa: ɛ
       pra: ę
       prec:
@@ -858,8 +886,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: velarized or velar lateral.
+      class: cons
+      descr:
+      - velarized or velar lateral.
       ipa:
       - ɫ
       - ʟ
@@ -894,15 +923,16 @@ letters:
     pra_name:
       com: Named thus because in many languages /ŋ/ is not present
       name:
-      - eŋga
+      - en̮ga
       - eŋga
     status:
       alt_only: true
       in_use: true
     type: letter
     value:
-    - class: cons
-      descr: null
+      class: cons
+      descr:
+      - voiced velar nasal
       ipa: ŋ
       pra:
       - n̮
@@ -932,11 +962,12 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: vowel
-      descr: null
+      class: vowel
+      descr:
+      - mid front rounded vowel
       ipa:
-      - œ
       - ø
+      - œ
       pra:
       - ö
       prec:
@@ -967,8 +998,10 @@ letters:
       in_use: null
     type: letter
     value:
-    - class: vowel
-      descr: null
+      class: vowel
+      descr:
+      - low-mid back unrounded vowel
+      - low back rounded vowel
       ipa:
       - ɔ
       - ɒ
@@ -1006,7 +1039,7 @@ letters:
       in_use: true
     type: letter
     value:
-    - alt:
+      alt:
         case: lc
         cases:
           uc: Ǝ
@@ -1015,7 +1048,8 @@ letters:
         - Unicode discourages use other than for African languages.
         - If used the proper lower case character U+01DD should be used.
       class: vowel
-      descr: null
+      descr:
+      - mid central vowel
       ipa: ə
       pra: e̥
       prec:
@@ -1043,8 +1077,9 @@ letters:
       in_use: true
     type: letter
     value:
-    - class: vowel
-      descr: null
+      class: vowel
+      descr:
+      - low-mid front unrounded vowel
       ipa: ɛ
       pra: ę
       prec:
@@ -1071,9 +1106,10 @@ letters:
       in_use: false
     type: letter
     value:
-    - class: vowel
+      class: vowel
       com: Handwriting may be problematic.
-      descr: low mid or low back or central unrounded vowel
+      descr:
+      - low mid or low back or central unrounded vowel
       ipa:
       - ʌ
       - ɐ
@@ -1117,8 +1153,9 @@ letters:
       recom: true
     type: letter
     value:
-    - class: cons
-      descr: Voiced sibilant affricates
+      class: cons
+      descr:
+      - Voiced sibilant affricates
       ipa: dz
       pra:
       - dz
