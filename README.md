@@ -12,7 +12,7 @@ The principles of PRA are described in the [PRA design principles][] (very much 
 
 -   PRA does as far as possible build on existing scholarly, bibliographic and similar romanization precedents and precedents in existing orthographies, striving for as common a base as possible.
 
-    Major sources of inspiration are the [Uralic Phonetic Alphabet][] ([text][]) and the [Standard Alphabet by Lepsius][] ([text][1]), mainly because they largely *are* codifications of existing usage along the lines which PRA is (beside its practical aim) meant to be.
+    Major sources of inspiration are the [Uralic Phonetic Alphabet][] ([text][]) and the [Standard Alphabet by Lepsius][] ([text][1]), mainly because they largely *are* codifications of existing usage along the lines which PRA is (beside its practical aim) meant to be.  Another obvious source of inspiration is the so-called [Americanist or North American Phonetic Alphabet][NAPA] which isn't an alphabet as much as an uncodified set of partly incoherent and conflicting practices based on both European philological traditions and the IPA. The Wikipedia article gives a good overview but to claim as it does that the various philological transcription practices are variants of the Americanist practice is to stand the facts on their head!
 
 -   PRA is meant to complement rather than compete with phonetic transcription systems, in particular the [IPA][].
 

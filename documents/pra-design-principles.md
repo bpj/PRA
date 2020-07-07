@@ -71,6 +71,52 @@ explanations.
     precedents and precedents in existing orthographies,
     striving for as common a base as possible.
 
+    Major sources of inspiration are the [Uralic Phonetic
+    Alphabet](-UPA) ([text](-UPA-text)) and the [Standard Alphabet by
+    Lepsius](-Lepsius-alphabet) ([text](-Lepsius-text)), mainly because they largely
+    *are* codifications of existing usage along the lines
+    which PRA is (beside its practical aim) meant to be.
+    Another obvious source of inspiration is the so-called
+    [Americanist or North American Phonetic Alphabet](-NAPA)
+    which isn't an alphabet as much as an uncodified set of
+    partly incoherent and conflicting practices based on
+    both European philological traditions and the IPA. The
+    Wikipedia article gives a good overview but to claim as
+    it does that the various philological transcription
+    practices are variants of the Americanist practice is to
+    stand the facts on their head!
+    From the perspective of
+    PRA the main weaknesses of the Americanist tradition is
+    that it can't make up its mind between diacritics and
+    special letters, and that it uses diacritics
+    inconsistently, so that the same diacritic can have
+    different meanings not only in different works, but also
+    within the same work depending on which letters they are
+    attached to and which other diacritics are attached to
+    the same letter.  To take the most blatant example ‹ṛ›
+    may stand for either a retroflex flap or a uvular trill,
+    apparently on the grounds that both are "retracted"
+    compared to an alveolar rhotic. When disambiguation is
+    needed the uvular trill is written either ‹ṛ̃›,  based on
+    the notation ‹r̃› for the alveolar trill, or the IPA
+    small capital ‹ʀ› is used. Such vagueness has no place
+    in PRA, where each diacritic has one well-defined
+    meaning, or possibly one meaning when used with
+    consonant letters and another with vowel letters.
+    Although in all fairness the Americanist tradition does
+    not use the tilde for nasalization the commonality
+    between the ‹ñ› for the palatal nasal and ‹r̃› for the
+    alveolar trill seems to be that they are written ‹ñ› and
+    ‹rr› in Spanish orthography and the tilde got copied to
+    the ‹r› by analogy! (To be fair PRA recognises _ñ_ as an
+    alternative notation for the palatal nasal — relatively
+    harmless since nasalization can't be added to  _n_ — but
+    it is not the main notation for this sound, let alone
+    the only one!) As for small capitals as distinct signs
+    they have no place in PRA: since the purpose of PRA is
+    romanization rather than phonetic transcription PRA
+    letters must normally allow normal capitalization.
+
 1.  PRA is meant to complement rather than compete with
     phonetic transcription systems, in particular the
     [IPA](-).
@@ -102,7 +148,19 @@ explanations.
     IPA it may be obvious that ‹ʃ› is not a kind of ‹f›,
     that ‹ɣ› is not a kind of ‹v› and ‹ɹ› is not a kind of
     ‹u› but if you never learnt the IPA it is not at all
-    obvious.
+    obvious. In a long quote on the Wikipedia page on
+    [Americanist phonetic notation](-NAPA) a famous
+    British phonetician goes on at length berating American
+    linguists for their "curious hostility" in face of the
+    "obvious superiority" of IPA special letters like ‹ʃ›.
+    In my (bpj) opinion this alleged superiority is far
+    from certain; it may hold some truth for printed
+    phonetic transcription, but in romanization novel
+    letters have serious disadvantages: as already
+    mentioned they are inscrutable to the
+    uninitiated. They are also hard to write (as opposed
+    to draw!) by hand, and they can't always be
+    capitalized.
 
     Appropriate use of digraphs include
 
