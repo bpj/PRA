@@ -1196,11 +1196,16 @@ marks:
       - Use for low tone in a register tone system.
       type: vowel-mark
       value:
-      - class: pros
-        descr:
-        - falling tone
-        - low tone
-        ipa: null
+      - class: pros-contour
+        descr: falling tone
+        ipa: ◌̂
+        prec:
+        - Common
+      - class: pros-register
+        descr: low tone
+        ipa:
+        - ˨
+        - ◌̀
         prec:
         - Common
       - class: pros

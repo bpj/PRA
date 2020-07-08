@@ -1,0 +1,780 @@
+---
+advanced:
+  descr: advanced
+  ipa:
+  - ◌˖
+  - ◌̟
+advanced tongue root:
+  descr: advanced tongue root
+  ipa: ◌̘
+affricate:
+  descr: affricate
+  ipa:
+  - ◌͜◌
+  - ◌͡◌
+alveolar click:
+  descr: alveolar click
+  ipa: ǂ
+alveolar friction:
+  descr: alveolar friction
+  ipa: ᶻ
+alveolopalatal friction:
+  descr: alveolopalatal friction
+  ipa: ᶽ
+apical:
+  descr: apical
+  ipa: ◌̺
+aspirated:
+  descr: aspirated
+  ipa: ʰ
+bilabial click:
+  descr: bilabial click
+  ipa: ʘ
+bottom tone:
+  descr: bottom tone
+  ipa:
+  - ˩
+  - ◌̏
+breathy voiced:
+  descr: breathy voiced
+  ipa: ◌̤
+breathy-voiced glottal fricative:
+  descr: breathy-voiced glottal fricative
+  ipa: ɦ
+centralized:
+  descr: centralized
+  ipa: ◌̈
+close back unrounded vowel:
+  descr: close back unrounded vowel
+  ipa: ɯ
+close central rounded vowel:
+  descr: close central rounded vowel
+  ipa: ʉ
+close central unrounded vowel:
+  descr: close central unrounded vowel
+  ipa: ɨ
+close-mid back rounded vowel:
+  descr: close-mid back rounded vowel
+  ipa: o
+close-mid back unrounded vowel:
+  descr: close-mid back unrounded vowel
+  ipa: ɤ
+close-mid central rounded vowel:
+  descr: close-mid central rounded vowel
+  ipa: ɵ
+close-mid central unrounded vowel:
+  descr: close-mid central unrounded vowel
+  ipa: ɘ
+close-mid front rounded vowel:
+  descr: close-mid front rounded vowel
+  ipa: ø
+close-mid front unrounded vowel:
+  descr: close-mid front unrounded vowel
+  ipa: e
+closed back rounded vowel:
+  descr: closed back rounded vowel
+  ipa: u
+closed front rounded vowel:
+  descr: closed front rounded vowel
+  ipa: y
+closed unrounded front vowel:
+  descr: closed unrounded front vowel
+  ipa: i
+compressed lips:
+  descr: compressed lips
+  ipa: ᶹ
+creaky voiced:
+  descr: creaky voiced
+  ipa: ◌̰
+dental:
+  descr: dental
+  ipa:
+  - ◌̪
+  - ◌͆
+dental click:
+  descr: dental click
+  ipa: ǀ
+double articulation:
+  descr: double articulation
+  ipa:
+  - ◌͜◌
+  - ◌͡◌
+downstep:
+  descr: downstep
+  ipa: ꜜ
+ejective:
+  descr: ejective
+  ipa: ʼ
+epiglottal stop:
+  descr: epiglottal stop
+  ipa: ʡ
+extra-high tone:
+  descr: extra-high tone
+  ipa:
+  - ˥
+  - ◌̋
+extra-low tone:
+  descr: extra-low tone
+  ipa:
+  - ˩
+  - ◌̏
+extra-short:
+  descr: extra-short
+  ipa: ◌̆
+falling tone:
+  descr: falling tone
+  ipa: ◌̂
+falling–rising tone:
+  descr: falling–rising tone
+  ipa: ◌᷉
+global fall:
+  descr: global fall
+  ipa: ↘︎
+global rise:
+  descr: global rise
+  ipa: ↗︎
+glottal stop:
+  descr: glottal stop
+  ipa: ʔ
+half-long:
+  descr: half-long
+  ipa: ˑ
+high back unrounded vowel:
+  descr: high back unrounded vowel
+  ipa: ɯ
+high central rounded vowel:
+  descr: high central rounded vowel
+  ipa: ʉ
+high central unrounded vowel:
+  descr: high central unrounded vowel
+  ipa: ɨ
+high falling tone:
+  descr: high falling tone
+  ipa: ◌᷇
+high rising tone:
+  descr: high rising tone
+  ipa: ◌᷄
+high tone:
+  descr: high tone
+  ipa:
+  - ˦
+  - ◌́
+high-mid back rounded vowel:
+  descr: high-mid back rounded vowel
+  ipa: o
+high-mid back unrounded vowel:
+  descr: high-mid back unrounded vowel
+  ipa: ɤ
+high-mid central rounded vowel:
+  descr: high-mid central rounded vowel
+  ipa: ɵ
+high-mid central unrounded vowel:
+  descr: high-mid central unrounded vowel
+  ipa: ɘ
+high-mid front rounded vowel:
+  descr: high-mid front rounded vowel
+  ipa: ø
+high-mid front unrounded vowel:
+  descr: high-mid front unrounded vowel
+  ipa: e
+labial friction:
+  descr: labial friction
+  ipa: ᵝ
+labialized:
+  descr: labialized
+  ipa: ʷ
+labialized syllabic alveolar approximant:
+  descr: labialized syllabic alveolar approximant
+  ipa: ʮ
+labialized syllabic retroflex approximant:
+  descr: labialized syllabic retroflex approximant
+  ipa: ʯ
+labiodentalized:
+  descr: labiodentalized
+  ipa: ᶹ
+laminal:
+  descr: laminal
+  ipa: ◌̻
+lateral click:
+  descr: lateral click
+  ipa: ǁ
+lateral release:
+  descr: lateral release
+  ipa: ˡ
+less rounded:
+  descr: less rounded
+  ipa:
+  - ◌˓
+  - ◌̜
+  - ◌͑
+linguolabial:
+  descr: linguolabial
+  ipa: ◌̼
+linking (absence of a break):
+  descr: linking (absence of a break)
+  ipa: ‿
+long:
+  descr: long
+  ipa: ː
+low back rounded vowel:
+  descr: low back rounded vowel
+  ipa: ɒ
+low back unrounded vowel:
+  descr: low back unrounded vowel
+  ipa: ɑ
+low falling tone:
+  descr: low falling tone
+  ipa: ◌᷆
+low front rounded vowel:
+  descr: low front rounded vowel
+  ipa: ɶ
+low front unrounded vowel:
+  descr: low front unrounded vowel
+  ipa: a
+low mid unrounded vowel:
+  descr: low mid unrounded vowel
+  ipa: a
+low rising tone:
+  descr: low rising tone
+  ipa: ◌᷅
+low tone:
+  descr: low tone
+  ipa:
+  - ˨
+  - ◌̀
+low-mid back unrounded vowel:
+  descr: low-mid back unrounded vowel
+  ipa:
+  - ɔ
+  - ʌ
+low-mid central rounded vowel:
+  descr: low-mid central rounded vowel
+  ipa: ɞ
+low-mid central unrounded vowel:
+  descr: low-mid central unrounded vowel
+  ipa: ɜ
+low-mid front unrounded vowel:
+  descr: low-mid front unrounded vowel
+  ipa: ɛ
+lowered:
+  descr: lowered
+  ipa:
+  - ◌˕
+  - ◌̞
+major (intonation) group:
+  descr: major (intonation) group
+  ipa: ‖
+mid central vowel:
+  descr: mid central vowel
+  ipa: ə
+mid central vowel release:
+  descr: mid central vowel release
+  ipa: ᵊ
+mid tone:
+  descr: mid tone
+  ipa:
+  - ˧
+  - ◌̄
+mid-centralized:
+  descr: mid-centralized
+  ipa: ◌̽
+minor (foot) group:
+  descr: minor (foot) group
+  ipa: '|'
+more rounded:
+  descr: more rounded
+  ipa:
+  - ◌˒
+  - ◌̹
+  - ◌͗
+nasal release:
+  descr: nasal release
+  ipa: ⁿ
+nasalized:
+  descr: nasalized
+  ipa: ◌̃
+near-close back unrounded vowel:
+  descr: near-close back unrounded vowel
+  ipa:
+  - ɷ
+  - ʊ
+near-close central rounded vowel:
+  descr: near-close central rounded vowel
+  ipa: ᵿ
+near-close central unrounded vowel:
+  descr: near-close central unrounded vowel
+  ipa: ᵻ
+near-close front rounded vowel:
+  descr: near-close front rounded vowel
+  ipa: ʏ
+near-close front unrounded vowel:
+  descr: near-close front unrounded vowel
+  ipa: ɩ
+near-high back unrounded vowel:
+  descr: near-high back unrounded vowel
+  ipa:
+  - ɷ
+  - ʊ
+near-high central rounded vowel:
+  descr: near-high central rounded vowel
+  ipa: ᵿ
+near-high central unrounded vowel:
+  descr: near-high central unrounded vowel
+  ipa: ᵻ
+near-high front rounded vowel:
+  descr: near-high front rounded vowel
+  ipa: ʏ
+near-high front unrounded vowel:
+  descr: near-high front unrounded vowel
+  ipa: ɩ
+near-low central vowel:
+  descr: near-low central vowel
+  ipa: ɐ
+near-low front unrounded vowel:
+  descr: near-low front unrounded vowel
+  ipa: æ
+near-open central vowel:
+  descr: near-open central vowel
+  ipa: ɐ
+near-open front unrounded vowel:
+  descr: near-open front unrounded vowel
+  ipa: æ
+no audible release:
+  descr: no audible release
+  ipa: ◌̚
+non-syllabic:
+  descr: non-syllabic
+  ipa:
+  - ◌̑
+  - ◌̯
+null - near-close front unrounded vowel - near-high front unrounded vowel:
+  descr: null - near-close front unrounded vowel - near-high front unrounded vowel
+  ipa: ɪ
+open back rounded vowel:
+  descr: open back rounded vowel
+  ipa: ɒ
+open back unrounded vowel:
+  descr: open back unrounded vowel
+  ipa: ɑ
+open front rounded vowel:
+  descr: open front rounded vowel
+  ipa: ɶ
+open front unrounded vowel:
+  descr: open front unrounded vowel
+  ipa: a
+open mid unrounded vowel:
+  descr: open mid unrounded vowel
+  ipa: a
+open-mid back unrounded vowel:
+  descr: open-mid back unrounded vowel
+  ipa:
+  - ɔ
+  - ʌ
+open-mid central rounded vowel:
+  descr: open-mid central rounded vowel
+  ipa: ɞ
+open-mid central unrounded vowel:
+  descr: open-mid central unrounded vowel
+  ipa: ɜ
+open-mid front rounded vowel:
+  descr: open-mid front rounded vowel
+  ipa: œ
+open-mid front unrounded vowel:
+  descr: open-mid front unrounded vowel
+  ipa: ɛ
+palatalized:
+  descr: palatalized
+  ipa: ʲ
+palatoalveolar friction:
+  descr: palatoalveolar friction
+  ipa: ᶾ
+pharyngealized:
+  descr: pharyngealized
+  ipa:
+  - ˤ
+  - ◌̴
+primary stress:
+  descr: primary stress
+  ipa: ˈ
+raised:
+  descr: raised
+  ipa:
+  - ◌˔
+  - ◌̝
+retracted:
+  descr: retracted
+  ipa:
+  - ◌˗
+  - ◌̠
+retracted tongue root:
+  descr: retracted tongue root
+  ipa: ◌̙
+retroflex click:
+  descr: retroflex click
+  ipa: ǃ
+retroflex friction:
+  descr: retroflex friction
+  ipa: ᶼ
+retroflex rhotacization:
+  descr: retroflex rhotacization
+  ipa: ʵ
+rhotacization:
+  descr: rhotacization
+  ipa: ʴ
+rhoticity:
+  descr: rhoticity
+  ipa: ◌˞
+rising tone:
+  descr: rising tone
+  ipa: ◌̌
+rising–falling tone:
+  descr: rising–falling tone
+  ipa: ◌᷈
+secondary stress:
+  descr: secondary stress
+  ipa: ˌ
+syllabic:
+  descr: syllabic
+  ipa:
+  - ◌̍
+  - ◌̩
+syllabic alveolar approximant:
+  descr: syllabic alveolar approximant
+  ipa: ɿ
+syllabic retroflex approximant:
+  descr: syllabic retroflex approximant
+  ipa: ʅ
+syllable break:
+  descr: syllable break
+  ipa: .
+top tone:
+  descr: top tone
+  ipa:
+  - ˥
+  - ◌̋
+upstep:
+  descr: upstep
+  ipa: ꜛ
+velarized:
+  descr: velarized
+  ipa:
+  - ˠ
+  - ◌̴
+voiced:
+  descr: voiced
+  ipa: ◌̬
+voiced alveolar approximant:
+  descr: voiced alveolar approximant
+  ipa: ɹ
+voiced alveolar flap:
+  descr: voiced alveolar flap
+  ipa: ɾ
+voiced alveolar fricative:
+  descr: voiced alveolar fricative
+  ipa: z
+voiced alveolar implosive:
+  descr: voiced alveolar implosive
+  ipa: ɗ
+voiced alveolar lateral:
+  descr: voiced alveolar lateral
+  ipa: l
+voiced alveolar lateral approximant:
+  descr: voiced alveolar lateral approximant
+  ipa: l
+voiced alveolar lateral flap:
+  descr: voiced alveolar lateral flap
+  ipa: ɺ
+voiced alveolar lateral fricative:
+  descr: voiced alveolar lateral fricative
+  ipa: ɮ
+voiced alveolar nasal:
+  descr: voiced alveolar nasal
+  ipa: n
+voiced alveolar sibilant fricative:
+  descr: voiced alveolar sibilant fricative
+  ipa:
+  - z
+  - ʣ
+voiced alveolar stop:
+  descr: voiced alveolar stop
+  ipa: d
+voiced alveolar trill:
+  descr: voiced alveolar trill
+  ipa: r
+voiced alveolopalatal affricate:
+  descr: voiced alveolopalatal affricate
+  ipa: ʥ
+voiced alveolopalatal fricative:
+  descr: voiced alveolopalatal fricative
+  ipa: ʑ
+voiced alveolopalatal lateral:
+  descr: voiced alveolopalatal lateral
+  ipa: ȴ
+voiced alveolopalatal lateral approximant:
+  descr: voiced alveolopalatal lateral approximant
+  ipa: ȴ
+voiced alveolopalatal nasal:
+  descr: voiced alveolopalatal nasal
+  ipa: ȵ
+voiced alveolopalatal sibilant affricate:
+  descr: voiced alveolopalatal sibilant affricate
+  ipa: ʥ
+voiced alveolopalatal sibilant fricative:
+  descr: voiced alveolopalatal sibilant fricative
+  ipa: ʑ
+voiced alveolopalatal stop:
+  descr: voiced alveolopalatal stop
+  ipa: ȡ
+voiced bilabial implosive:
+  descr: voiced bilabial implosive
+  ipa: ɓ
+voiced bilabial nasal:
+  descr: voiced bilabial nasal
+  ipa: m
+voiced bilabial stop:
+  descr: voiced bilabial stop
+  ipa: b
+voiced bilabial trill:
+  descr: voiced bilabial trill
+  ipa: ʙ
+voiced dental fricative:
+  descr: voiced dental fricative
+  ipa: ð
+voiced epiglottal trill:
+  descr: voiced epiglottal trill
+  ipa: ʢ
+voiced glottal fricative:
+  descr: voiced glottal fricative
+  ipa: ɦ
+voiced labial-palatal approximant:
+  descr: voiced labial-palatal approximant
+  ipa: ɥ
+voiced labialized palatal approximant:
+  descr: voiced labialized palatal approximant
+  ipa: ɥ
+voiced labio-velar approximant:
+  descr: voiced labio-velar approximant
+  ipa: w
+voiced labiodental approximant:
+  descr: voiced labiodental approximant
+  ipa: ʋ
+voiced labiodental fricative:
+  descr: voiced labiodental fricative
+  ipa: v
+voiced labiodental nasal:
+  descr: voiced labiodental nasal
+  ipa: ɱ
+voiced labiodental stop:
+  descr: voiced labiodental stop
+  ipa: ȸ
+voiced labiopalatal approximant:
+  descr: voiced labiopalatal approximant
+  ipa: ɥ
+voiced labiovelar approximant:
+  descr: voiced labiovelar approximant
+  ipa: w
+voiced palatal approximant:
+  descr: voiced palatal approximant
+  ipa: j
+voiced palatal fricative:
+  descr: voiced palatal fricative
+  ipa: ʝ
+voiced palatal implosive:
+  descr: voiced palatal implosive
+  ipa: ʄ
+voiced palatal lateral approximant:
+  descr: voiced palatal lateral approximant
+  ipa: ʎ
+voiced palatal nasal:
+  descr: voiced palatal nasal
+  ipa: ɲ
+voiced palatal stop:
+  descr: voiced palatal stop
+  ipa: ɟ
+voiced palatoalveolar affricate:
+  descr: voiced palatoalveolar affricate
+  ipa: ʤ
+voiced palatoalveolar fricative:
+  descr: voiced palatoalveolar fricative
+  ipa: ʒ
+voiced palatoalveolar sibilant affricate:
+  descr: voiced palatoalveolar sibilant affricate
+  ipa: ʤ
+voiced palatoalveolar sibilant fricative:
+  descr: voiced palatoalveolar sibilant fricative
+  ipa: ʒ
+voiced pharyngeal approximant:
+  descr: voiced pharyngeal approximant
+  ipa: ʕ
+voiced pharyngeal fricative:
+  descr: voiced pharyngeal fricative
+  ipa: ʕ
+voiced pharyngealized alveolar lateral approximant:
+  descr: voiced pharyngealized alveolar lateral approximant
+  ipa: ɫ
+voiced retroflex approximant:
+  descr: voiced retroflex approximant
+  ipa: ɻ
+voiced retroflex flap:
+  descr: voiced retroflex flap
+  ipa: ɽ
+voiced retroflex fricative:
+  descr: voiced retroflex fricative
+  ipa: ʐ
+voiced retroflex lateral approximant:
+  descr: voiced retroflex lateral approximant
+  ipa: ɭ
+voiced retroflex nasal:
+  descr: voiced retroflex nasal
+  ipa: ɳ
+voiced retroflex sibilant fricative:
+  descr: voiced retroflex sibilant fricative
+  ipa: ʐ
+voiced retroflex stop:
+  descr: voiced retroflex stop
+  ipa: ɖ
+voiced uvular approximant:
+  descr: voiced uvular approximant
+  ipa: ʁ
+voiced uvular fricative:
+  descr: voiced uvular fricative
+  ipa: ʁ
+voiced uvular implosive:
+  descr: voiced uvular implosive
+  ipa: ʛ
+voiced uvular nasal:
+  descr: voiced uvular nasal
+  ipa: ɴ
+voiced uvular stop:
+  descr: voiced uvular stop
+  ipa: ɢ
+voiced uvular trill:
+  descr: voiced uvular trill
+  ipa: ʀ
+voiced velar approximant:
+  descr: voiced velar approximant
+  ipa: ɰ
+voiced velar fricative:
+  descr: voiced velar fricative
+  ipa: ɣ
+voiced velar implosive:
+  descr: voiced velar implosive
+  ipa: ɠ
+voiced velar lateral approximant:
+  descr: voiced velar lateral approximant
+  ipa: ʟ
+voiced velar nasal:
+  descr: voiced velar nasal
+  ipa: ŋ
+voiced velar stop:
+  descr: voiced velar stop
+  ipa:
+  - g
+  - ɡ
+voiced velarized alveolar lateral approximant:
+  descr: voiced velarized alveolar lateral approximant
+  ipa: ɫ
+voiceless:
+  descr: voiceless
+  ipa:
+  - ◌̊
+  - ◌̥
+voiceless alveolar affricate:
+  descr: voiceless alveolar affricate
+  ipa: ʦ
+voiceless alveolar fricative:
+  descr: voiceless alveolar fricative
+  ipa: s
+voiceless alveolar lateral fricative:
+  descr: voiceless alveolar lateral fricative
+  ipa: ɬ
+voiceless alveolar sibilant affricate:
+  descr: voiceless alveolar sibilant affricate
+  ipa: ʦ
+voiceless alveolar sibilant fricative:
+  descr: voiceless alveolar sibilant fricative
+  ipa: s
+voiceless alveolar stop:
+  descr: voiceless alveolar stop
+  ipa: t
+voiceless alveolopalatal affricate:
+  descr: voiceless alveolopalatal affricate
+  ipa: ʨ
+voiceless alveolopalatal fricative:
+  descr: voiceless alveolopalatal fricative
+  ipa: ɕ
+voiceless alveolopalatal sibilant affricate:
+  descr: voiceless alveolopalatal sibilant affricate
+  ipa: ʨ
+voiceless alveolopalatal stop:
+  descr: voiceless alveolopalatal stop
+  ipa: ȶ
+voiceless bilabial fricative:
+  descr: voiceless bilabial fricative
+  ipa: ɸ
+voiceless bilabial stop:
+  descr: voiceless bilabial stop
+  ipa: p
+voiceless dental fricative release:
+  descr: voiceless dental fricative release
+  ipa: ᶿ
+voiceless epiglottal trill:
+  descr: voiceless epiglottal trill
+  ipa: ʜ
+voiceless glottal fricative:
+  descr: voiceless glottal fricative
+  ipa: h
+voiceless labial-velar approximant:
+  descr: voiceless labial-velar approximant
+  ipa: ʍ
+voiceless labiodental fricative:
+  descr: voiceless labiodental fricative
+  ipa: f
+voiceless labiodental stop:
+  descr: voiceless labiodental stop
+  ipa: ȹ
+voiceless labiovelar approximant:
+  descr: voiceless labiovelar approximant
+  ipa: ʍ
+voiceless palatal fricative:
+  descr: voiceless palatal fricative
+  ipa: ç
+voiceless palatal stop:
+  descr: voiceless palatal stop
+  ipa: c
+voiceless palatoalveolar affricate:
+  descr: voiceless palatoalveolar affricate
+  ipa: ʧ
+voiceless palatoalveolar fricative:
+  descr: voiceless palatoalveolar fricative
+  ipa: ʃ
+voiceless palatoalveolar sibilant affricate:
+  descr: voiceless palatoalveolar sibilant affricate
+  ipa: ʧ
+voiceless palatoalveolar sibilant fricative:
+  descr: voiceless palatoalveolar sibilant fricative
+  ipa: ʃ
+voiceless postalveolar-velar fricative:
+  descr: voiceless postalveolar-velar fricative
+  ipa: ɧ
+voiceless retroflex fricative:
+  descr: voiceless retroflex fricative
+  ipa: ʂ
+voiceless retroflex sibilant fricative:
+  descr: voiceless retroflex sibilant fricative
+  ipa: ʂ
+voiceless retroflex stop:
+  descr: voiceless retroflex stop
+  ipa: ʈ
+voiceless uvular stop:
+  descr: voiceless uvular stop
+  ipa: q
+voiceless velar fricative:
+  descr: voiceless velar fricative
+  ipa: x
+voiceless velar fricative release:
+  descr: voiceless velar fricative release
+  ipa: ˣ
+voiceless velar stop:
+  descr: voiceless velar stop
+  ipa: k
