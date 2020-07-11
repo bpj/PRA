@@ -16,13 +16,15 @@ print uc trim !perlarg(!1)(!2)
 !def(ipm)(IPA phonemic transcription)(/!1/)
 !def(usc)(uppercase small caps)(!1)
 !def(cpoint)(a Unicode codepoint)(!1)
+
+!def{rh}{Rotated table header in LaTeX (noop)}{!1}
+
+!def(s)(!1)
+!def(xs)(!1)
+!def(xxs)(!1)
+
+!def(l)(!1)
+!def(xl)(!1)
+!def(xxl)(!1)
 )
-
-!def(small)(!1)
-!def(xsmall)(!1)
-!def(xxsmall)(!1)
-
-!def(large)(!1)
-!def(xlarge)(!1)
-!def(xxlarge)(!1)
 

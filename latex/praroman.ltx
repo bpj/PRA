@@ -1,9 +1,29 @@
 \usepackage{relsize}
+\usepackage{ulem}
 \usepackage{newunicodechar}
-\newcommand{\textusc}[1]{{\addfontfeatures{Letters=UppercaseSmallCaps}}
+\usepackage{graphicx}
+\newcommand{\textusc}[1]{{\addfontfeatures{Letters=UppercaseSmallCaps}}}
 \newfontfamily\SymbolsFont{Noto Sans Symbols}
-\newcommand{\Symbol}[1]{{\SymbolsFont{\#1}}}
+\newcommand{\Symbol}[1]{{\SymbolsFont{#1}}}
+\newunicodechar{◌}{\Symbol{◌}}
 \newunicodechar{⟨}{\Symbol{⟨}}
 \newunicodechar{⟩}{\Symbol{⟩}}
 \newunicodechar{⟪}{\Symbol{⟪}}
 \newunicodechar{⟫}{\Symbol{⟫}}
+\newcommand{\rH}[2][45]{\makebox[2em][c]{\rotatebox{#1}{\textsmaller[1]{#2}}}}
+
+\RedeclareSectionCommand[
+beforeskip=-10pt plus -2pt minus -1pt,
+afterskip=1sp plus -1sp minus 1sp,
+% font=\normalfont\itshape
+font=\smaller
+]{paragraph}
+\RedeclareSectionCommand[
+beforeskip=-10pt plus -2pt minus -1pt,
+afterskip=1sp plus -1sp minus 1sp,
+% font=\normalfont\scshape,
+font=\smaller\itshape
+indent=0pt]{subparagraph}
+
+\let\toprule\relax
+\let\bottomrule\relax

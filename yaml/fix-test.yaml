@@ -1,7 +1,0 @@
-foo:
-  bar: true
-  baz: true
-  quux: false
-  fop:
-    - true
-    - false
