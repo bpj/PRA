@@ -1,6 +1,7 @@
-Lingua-PRA/
+scratch/
 backup/
 zip/
 perltidy.ERR
+*.pdf
 *.sw[a-z]
 
