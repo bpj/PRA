@@ -17,14 +17,14 @@
 !def(rh)(Rotated table header in LaTeX)(!ltc(rH)(!1))
 !def(pra)(PRA text)(
   !ifdef(praem)(
-    !ltc(textit)(!1)
+    !ltc(NoCaseChange)(!ltc(textit)(!1))
   )(
     !ltc(NoCaseChange)(⟪!1⟫)
   )
 )
 !def(gr)(grapheme(s))(
   !ifdef(praem)(
-    !ltc(textbf)(!ltc(textit)(!1))
+    !ltc(NoCaseChange)(!ltc(textbf)(!ltc(textit)(!1)))
   )(
     !ltc(NoCaseChange)(⟨!1⟩)
   )
